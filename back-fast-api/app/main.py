@@ -26,7 +26,7 @@ app.add_middleware(
 current_directory = os.getcwd()
 
 # Chemin complet vers ton modèle
-model_path = os.path.join(current_directory, "Decision_Tree.pkl")
+model_path = os.path.join(current_directory, "decision_tree.pkl")
 
 # Charger le modèle
 model = joblib.load(model_path)
